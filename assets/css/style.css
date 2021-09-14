@@ -78,6 +78,35 @@ img {
   padding-left: 0;
 }
 
+/* Input */
+.input {
+  padding: 1.5rem 3.5rem;
+  outline: 0;
+  border-radius: 10px;
+  border: 1px solid var(--primary-color);
+  color: var(--heading-color);
+}
+
+::placeholder {
+  color: var(--heading-color);
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-around;
+}
+
+.input-group .input {
+  flex-grow: 1;
+  margin-bottom: 1rem;
+  resize: none;
+  width: 0;
+}
+
+.input-group .btn {
+  margin-bottom: 1rem;
+}
+
 /* Buttons */
 .btn {
   border-radius: 30px;
